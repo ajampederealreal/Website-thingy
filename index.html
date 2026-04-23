@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+        }
+
+         header {
+            background-image: url("Headerbackground.jpg");
+            color: white;
+            text-align: center;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: below;
+        }
+
+        nav {
+            background-color: #1B1654;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #1B1654;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #1B1654;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Azzam Pradipta Dewanto</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+              Topik argumentasi saya adalah "Menghidupkan Imajinasi dengan Animasi" alasan saya adalah karena animasi adalah salah satu media penyalur seni visual yang mulai ditinggalkan, khususnya karena Artificial Intellegence yang mampu membuat animasi dalam satu ketukan dan hal tersebut juga berpengaruh kepada animasi konvensional yang dibuat oleh manusia.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Harapan saya adalah untuk para penonton lebih memperhatikan dan mengapresiasikan para seniman dan animator manusia yang membuat seni dengan makna didalamnya, cerita dalam prosesnya, bukan cuma hasil tetapi sebuah jerih payah dan makna dibalik karyanya.
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+               Alhamdulillah AlHaraki membantu saya bangkit lagi, dari saya yang bukan siapa-siapa menjadi orang yang lebih baik, oleh karena itu saya sangat berterimakasih kepada kalian, kalian juga telah membentuk karakterku yang baik dan untuk itu, kata-kata pun saya rasa tidak mampu memenuhi rasa terimakasih ini.
+
+pesan saya adalah terus maju dan terus jaya, hadapi dulu, hasilnya nanti aja, kamu akan meleset 99% peluang yang tidak kamu ambil.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="Headerbackground.jpg" alt="Gambar Bebas 1">
+            <img src="Aurora.jpg" alt="Gambar Bebas 2">
+            <img src="Newname.jpg" alt="Gambar Bebas 3">
+            <img src="Trees.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Azzam Pradipta Dewanto@2026 </p>
+</footer>
+
+</body>
+</html>
